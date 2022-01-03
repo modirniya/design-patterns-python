@@ -11,4 +11,4 @@ class StrategyPattern:
         self.play()
 
     def play(self):
-        pass
+        self.image_storage.store('file://xyz')

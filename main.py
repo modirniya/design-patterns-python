@@ -1,6 +1,8 @@
 from behavioral.iterator import IteratorPattern
 from behavioral.memento import MementoPattern
 from behavioral.state import StatePattern
+from behavioral.strategy import StrategyPattern
+from behavioral.template import TemplatePattern
 
 
 def invoke_driver():
@@ -14,12 +16,17 @@ def invoke_driver():
     # print(account)
     # account.deposit(11234.2)
     # account.withdraw(340.0)
-    #
+    # 1.
     # MementoPattern()
-    #
+    # 2.
     # StatePattern()
-    #
-    IteratorPattern()
+    # 3.
+    # IteratorPattern()
+    # 4.
+    # StrategyPattern()
+    # 5.
+    # TemplatePattern()
+
     pass
 
 
