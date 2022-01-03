@@ -1,5 +1,5 @@
-from behavioral.strategy.compressor import Compressor
-from behavioral.strategy.filter import Filter
+from behavioral.strategy.component.compressor import Compressor
+from behavioral.strategy.component.filter import Filter
 
 
 class ImageStorage:

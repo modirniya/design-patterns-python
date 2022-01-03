@@ -1,5 +1,5 @@
-from behavioral.strategy.compressor import JPEGCompressor
-from behavioral.strategy.filter import BlackAndWhite
+from behavioral.strategy.component.compressor import JPEGCompressor
+from behavioral.strategy.component.filter import BlackAndWhite
 from behavioral.strategy.image_storage import ImageStorage
 
 

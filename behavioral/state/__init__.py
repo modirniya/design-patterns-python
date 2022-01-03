@@ -1,6 +1,6 @@
-from behavioral.state.brush_tool import BrushTool
+from behavioral.state.tools.brush_tool import BrushTool
 from behavioral.state.canvas import Canvas
-from behavioral.state.selection_tool import SelectionTool
+from behavioral.state.tools.selection_tool import SelectionTool
 
 
 class StatePattern:
