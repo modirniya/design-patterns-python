@@ -1,3 +1,4 @@
+from behavioral.iterator import IteratorPattern
 from behavioral.memento import MementoPattern
 from behavioral.state import StatePattern
 
@@ -16,7 +17,9 @@ def invoke_driver():
     #
     # MementoPattern()
     #
-    StatePattern()
+    # StatePattern()
+    #
+    IteratorPattern()
     pass
 
 
